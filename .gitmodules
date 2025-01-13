@@ -1,0 +1,3 @@
+[submodule "docker-sakai-builder"]
+	path = docker-sakai-builder
+	url = https://github.com/JMSteinlechner/docker-sakai-builder
