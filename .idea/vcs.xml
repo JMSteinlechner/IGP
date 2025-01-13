@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/docker-sakai-builder" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/docker-sakai-builder/sakai" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/docker-sakai-builder/sakai/rollcall" vcs="Git" />
+  </component>
+</project>
