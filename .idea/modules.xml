@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/IGP.iml" filepath="$PROJECT_DIR$/.idea/IGP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/docker-sakai-builder/sakai/base.iml" filepath="$PROJECT_DIR$/docker-sakai-builder/sakai/base.iml" />
     </modules>
   </component>
 </project>
