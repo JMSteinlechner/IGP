@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/docker-sakai-builder/sakai/rollcall/api/src/bundle" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/docker-sakai-builder/sakai/rollcall/api/src/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/docker-sakai-builder/sakai/rollcall/impl/src/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/docker-sakai-builder/sakai/rollcall/impl/src/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/docker-sakai-builder/sakai/rollcall/src/bundle" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/docker-sakai-builder/sakai/rollcall/src/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/docker-sakai-builder/sakai/rollcall/tool/src/bundle" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/docker-sakai-builder/sakai/rollcall/tool/src/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/docker-sakai-builder/sakai/src/bundle" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/docker-sakai-builder/sakai/src/java" charset="UTF-8" />
   </component>
