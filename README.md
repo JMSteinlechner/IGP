@@ -25,14 +25,13 @@ Sakai fork because we directly include bbb-tool and rollcall in the sakai build 
 
 BBB-tool fork so we can change to the appropiate 23-SNAPSHOT.
 
-
 # Build
 
 ```
 git clone --recurse-submodules https://github.com/JMSteinlechner/IGP
 ```
 
-then follow rest of docker-sakai-builder guide
+then follow rest of docker-sakai-builder guide or use the code below
 
 ```
 cd IGP/docker-sakai-builder
@@ -56,3 +55,9 @@ sleep 1m
 # docker rm sakai-tomcat
 ./sakai-dock.sh tomcat
 ```
+
+
+Tomcat (sakai) will need atleast 5-10 minutes to start up.
+Connect at http://localhost:8080/portal
+
+Enjoy 😄
