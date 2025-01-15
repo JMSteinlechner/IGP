@@ -22,6 +22,8 @@ cd ..
 ./sakai-dock.sh mariadb
 
 # wait 1 min ca.. for db to start
+sleep 1m
+
 # Remove if you already made a sakai-tomcat docker image and you want to a fresh one!
 # docker rm sakai-tomcat
 ./sakai-dock.sh tomcat
