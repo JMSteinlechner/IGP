@@ -6,418 +6,330 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="sakai-presence-util" />
+        <module name="myfaces-widgets" />
+        <module name="sakai-postem-impl" />
+        <module name="sakai-import-bb55" />
+        <module name="message-search-adapters-impl" />
+        <module name="sakai-calendar-connector" />
+        <module name="mycalendar" />
+        <module name="sakai-access-impl" />
+        <module name="rubrics-api" />
+        <module name="api" />
+        <module name="search-util" />
+        <module name="content-review-dao-impl" />
+        <module name="sakai-plus-impl" />
+        <module name="sakai-citations-tool" />
+        <module name="bbb-tool" />
+        <module name="rubrics-impl" />
+        <module name="sitestats-tool" />
+        <module name="sakai-portal-service-impl" />
+        <module name="sakai-conversations-impl" />
+        <module name="sakai-presence-impl" />
+        <module name="elfinder-connector" />
+        <module name="jsf2-spreadsheet" />
+        <module name="tags-tool" />
+        <module name="sakai-message-tool" />
+        <module name="sakai-privacy-hbm" />
+        <module name="sakai-rsf-web-evolvers" />
+        <module name="archive-api" />
+        <module name="search-impl" />
+        <module name="content-review-compilatio-impl" />
+        <module name="content-review-turnitin-oc-impl" />
+        <module name="userauditservice-tool" />
+        <module name="oauth-dao-hbm" />
+        <module name="sakai-portal-render-api" />
+        <module name="accountvalidator-api" />
+        <module name="sakai-sample-provider" />
+        <module name="jsf-tool" />
+        <module name="sakai-googledrive-api" />
+        <module name="access" />
+        <module name="sakai-chat-impl" />
+        <module name="sakai-kernel-storage-util" />
+        <module name="sakai-common-composite-component-data" />
+        <module name="sections-api" />
+        <module name="sakai-calendar-hbm" />
+        <module name="sakai-mailarchive-tool" />
+        <module name="authn" />
+        <module name="attendance-impl" />
+        <module name="basiclti-impl" />
+        <module name="sakai-grading-api" />
+        <module name="sections-model" />
+        <module name="sakai-portal-render-impl" />
+        <module name="webcomponents-bundle" />
+        <module name="sakai-signup-tool" />
+        <module name="sakai-podcasts-api" />
+        <module name="sakai-message-api" />
+        <module name="lessonbuilder-tool" />
+        <module name="basiclti-util" />
+        <module name="content-review-tool" />
+        <module name="jsf2-app" />
+        <module name="sakai-common-composite-component" />
+        <module name="sections-impl" />
+        <module name="sakai-help-content" />
+        <module name="rollcall-api" />
+        <module name="serviceworker" />
+        <module name="sakai-assignment-impl" />
+        <module name="jsf-widgets" />
+        <module name="attendance-api" />
+        <module name="sakai-onedrive-impl" />
+        <module name="x" />
+        <module name="sakai-postem-hbm" />
+        <module name="sakai-syllabus-api" />
+        <module name="imsblti" />
+        <module name="sakai-editor" />
+        <module name="sakai-googledrive-tool" />
+        <module name="portal-chat" />
+        <module name="sakai-acadtermmanage-impl" />
+        <module name="portal-charon" />
+        <module name="pasystem-tool" />
+        <module name="configuration-bundles" />
+        <module name="samigo-app" />
+        <module name="commons-api" />
+        <module name="shortenedurl-api" />
+        <module name="sakai-rwiki-api" />
+        <module name="accountvalidator" />
+        <module name="sakai-citations-impl" />
+        <module name="sakai-rsf-core" />
+        <module name="accountvalidator-impl" />
+        <module name="sakai-rsf-web-templates" />
+        <module name="sakai-comp-shared-help" />
+        <module name="sakai-dav-common" />
+        <module name="sitestats-impl-hib" />
+        <module name="rubrics-tool" />
+        <module name="external-calendaring-service-impl" />
+        <module name="signup-api" />
+        <module name="sakai-privacy-api" />
+        <module name="sakai-citations-servlet" />
+        <module name="delegatedaccess-tool" />
+        <module name="sakai-syllabus-impl" />
+        <module name="messageforums-component-impl" />
+        <module name="scheduler-component-shared" />
+        <module name="samigo-services" />
+        <module name="sakai-usermembership-tool" />
+        <module name="sakai-login-tool" />
+        <module name="sakai-help-api" />
+        <module name="sakai-taggable-impl" />
+        <module name="admin-tool-su" />
+        <module name="entitybroker-restimpl" />
+        <module name="sakai-presence-tool" />
+        <module name="samlite-impl" />
+        <module name="basiclti-admin-tool" />
+        <module name="samigo-api" />
+        <module name="pasystem-api" />
+        <module name="sakai-reset-pass" />
+        <module name="sakai-citations-util" />
+        <module name="emailtemplateservice-tool" />
+        <module name="sakai-federating-provider" />
+        <module name="sakai-component-manager" />
+        <module name="delegatedaccess-api" />
+        <module name="login-render-engine-impl" />
+        <module name="sakai-web-portlet-basiclti" />
+        <module name="login-api" />
+        <module name="messageforums-api" />
+        <module name="sakai-mailarchive-api" />
+        <module name="sakai-announcement-api" />
+        <module name="sakai-velocity-tool-api" />
+        <module name="sakai-mailarchive-impl" />
+        <module name="sakai-postem-api" />
+        <module name="sakai-roster2-bundle" />
+        <module name="bbb-impl" />
+        <module name="sakai-mergedlist-util" />
+        <module name="imsoidc" />
+        <module name="coursemanagement-hibernate-model" />
+        <module name="jsf-resource" />
+        <module name="scheduler-api" />
+        <module name="portlet-util" />
+        <module name="rollcall-impl" />
+        <module name="sakai-citations-web2bridge" />
+        <module name="jsf2-tool" />
+        <module name="sakai-calendar-tool" />
+        <module name="lessonbuilder-api" />
+        <module name="sakai-search-tool" />
+        <module name="rollcall-pack" />
+        <module name="messageforums-tool" />
+        <module name="sakai-openldap-provider" />
+        <module name="shared-i18n-bundles" />
+        <module name="sakai-calendar-api" />
+        <module name="scoring-service-impl" />
+        <module name="sakai-kernel-test" />
+        <module name="lessonbuilder-components" />
+        <module name="basiclti-api" />
+        <module name="sakai-import-content" />
+        <module name="sakai-usermembership-api" />
+        <module name="sakai-roster2-tool" />
+        <module name="samigo-qti" />
+        <module name="sakai-podcasts" />
+        <module name="scheduler-test-component" />
+        <module name="localization-bundles" />
+        <module name="polls-api" />
+        <module name="sakai-calendar-impl" />
+        <module name="sakai-dav-server" />
+        <module name="coursemanagement-hibernate-pack" />
+        <module name="entitybroker-utils" />
+        <module name="login-impl" />
+        <module name="elasticsearch-util" />
+        <module name="wicket-tool-8" />
+        <module name="coursemanagement-hibernate-impl" />
+        <module name="wicket-tool-6" />
+        <module name="sakai-onedrive-api" />
+        <module name="shortenedurl-impl" />
+        <module name="userauditservice-api" />
+        <module name="delegatedaccess-impl" />
+        <module name="jsf2-widgets" />
+        <module name="sakai-acadtermmanage-tool" />
+        <module name="tags-api" />
+        <module name="sakai-radeox" />
+        <module name="sakai-grading-impl" />
+        <module name="oauth-api" />
+        <module name="sakai-kerberos-provider" />
+        <module name="elasticsearch-impl" />
+        <module name="scheduler-utils" />
+        <module name="oauth-tool" />
+        <module name="scheduler-component" />
+        <module name="lessonbuilder-hbm" />
+        <module name="search-model" />
+        <module name="entitybroker-mocks" />
+        <module name="pasystem-impl" />
+        <module name="attendance-tool" />
+        <module name="coursemanagement-api" />
+        <module name="sakai-announcement-tool" />
+        <module name="bbb-api" />
+        <module name="sakai-imsent-provider" />
+        <module name="sitestats-api" />
+        <module name="archive-impl2" />
+        <module name="sakai-import-util" />
+        <module name="content-review-turnitin-impl" />
+        <module name="sakai-portal-impl" />
+        <module name="jsf-widgets-sun" />
+        <module name="sakai-podcasts-impl" />
+        <module name="jsf-spreadsheet" />
+        <module name="sakai-portal-api" />
+        <module name="basiclti-common" />
+        <module name="entitybroker-pack" />
+        <module name="direct" />
+        <module name="sakai-kernel-impl" />
+        <module name="scheduler-events-model" />
+        <module name="sakai-import-bb6-resource" />
+        <module name="sakai-conversations-tool" />
+        <module name="sitestats-bundle" />
+        <module name="sakai-archive-import" />
+        <module name="sakai-portal-util" />
+        <module name="library" />
+        <module name="web" />
+        <module name="sakai-allhands-provider" />
+        <module name="sakai-rwiki-model" />
+        <module name="commons-impl" />
+        <module name="external-calendaring-service-api" />
+        <module name="messageforums-hbm" />
+        <module name="scheduler-test-component-shared" />
+        <module name="mailsender-tool" />
+        <module name="sakai-rwiki-tool" />
+        <module name="profile2-util" />
+        <module name="sakai-import-announcement" />
+        <module name="sakai-plus-api" />
+        <module name="sakai-ws" />
+        <module name="samigo-cp" />
+        <module name="sakai-help-tool" />
+        <module name="content-review-api" />
+        <module name="sakai-kernel-util" />
+        <module name="sakai-citations-api" />
+        <module name="polls-impl" />
+        <module name="simple-rss-portlet" />
+        <module name="podcasts" />
+        <module name="sakai-calendar-summary-tool" />
+        <module name="sakai-rsf-web-test" />
+        <module name="sakai-taggable-hbm" />
+        <module name="rollcall-tool" />
+        <module name="sakai-assignment-api" />
+        <module name="sakai-fck-connector" />
+        <module name="sakai-comp-help" />
+        <module name="sakai-calendar-util" />
+        <module name="profile2-impl" />
+        <module name="sakai-import-bb6" />
+        <module name="adminsiteperms" />
+        <module name="sakai-announcement-impl" />
+        <module name="import-impl" />
+        <module name="sakai-sections-tool" />
+        <module name="wiki" />
+        <module name="sakai-message-util" />
+        <module name="sakai-postem-tool" />
+        <module name="tags-impl" />
+        <module name="import-pack" />
+        <module name="samigo-hibernate" />
+        <module name="cloud-content-impl" />
+        <module name="dav" />
+        <module name="sakai-plus-tool" />
+        <module name="common-cartridge" />
+        <module name="entitybroker-api" />
+        <module name="signup-impl" />
+        <module name="sakai-taggable-api" />
+        <module name="userauditservice-util" />
+        <module name="commons-tool" />
+        <module name="elasticsearch-api" />
+        <module name="sakai-userdetail-provider" />
+        <module name="sakai-coursemanagement-authz-provider-impl" />
+        <module name="myconnections" />
+        <module name="userauditservice-impl" />
+        <module name="mailsender-api" />
+        <module name="entitybroker-impl" />
+        <module name="plus" />
+        <module name="tool" />
+        <module name="profile2-api" />
+        <module name="gradebookng-tool" />
+        <module name="sakai-velocity-tool" />
+        <module name="samigo-import" />
+        <module name="imsblis" />
+        <module name="oauth-impl" />
+        <module name="sitestats-impl" />
+        <module name="content-review-urkund-impl" />
+        <module name="sakai-message-bundle-manager-tool" />
+        <module name="webcomponents" />
+        <module name="sakai-citations-xserver" />
+        <module name="sakai-unboundid-provider" />
+        <module name="sakai-portal-render-engine-impl" />
+        <module name="sakai-velocity-util" />
+        <module name="sakai-onedrive-tool" />
+        <module name="sakai-conversations-api" />
+        <module name="sakai-dashboard-tool" />
+        <module name="sakai-kernel-api" />
+        <module name="scoring-service-api" />
+        <module name="sakai-acadtermmanage-api" />
+        <module name="sakai-chat-tool" />
+        <module name="sakai-usermembership-impl" />
+        <module name="jsf-app" />
+        <module name="sakai-syllabus-tool" />
+        <module name="sakai-common-api" />
+        <module name="sakai-rwiki-diff" />
+        <module name="sakai-chat-api" />
+        <module name="scheduler-tool" />
+        <module name="sakai-rwiki-util" />
+        <module name="sakai-assignment-tool" />
+        <module name="mailsender-impl" />
+        <module name="search-api" />
+        <module name="gradebookng-bundle" />
+        <module name="sakai-calendar-bundles" />
+        <module name="content-review-pack" />
+        <module name="feedback-tool" />
+        <module name="polls-tool" />
+        <module name="jsf2-widgets-sun" />
+        <module name="sakai-presence-api" />
+        <module name="sakai-privacy-impl" />
+        <module name="sakai-rwiki-impl" />
+        <module name="sakai-mailarchive-subetha" />
+        <module name="admin-tools" />
+        <module name="sakai-provider-pack" />
+        <module name="sakai-googledrive-impl" />
+        <module name="content-review-service-impl" />
+        <module name="samigo-impl" />
+        <module name="samigo-pack" />
+        <module name="providers" />
+        <module name="profile2-tool" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="access" target="11" />
-      <module name="access-base" target="11" />
-      <module name="accountvalidator" target="11" />
-      <module name="accountvalidator-api" target="11" />
-      <module name="accountvalidator-impl" target="11" />
-      <module name="admin-tool-su" target="11" />
-      <module name="admin-tools" target="11" />
-      <module name="adminsiteperms" target="11" />
-      <module name="announcement" target="11" />
-      <module name="api" target="11" />
-      <module name="archive-api" target="11" />
-      <module name="archive-base" target="11" />
-      <module name="archive-impl2" target="11" />
-      <module name="assignment" target="11" />
-      <module name="attendance" target="11" />
-      <module name="attendance-api" target="11" />
-      <module name="attendance-impl" target="11" />
-      <module name="attendance-tool" target="11" />
-      <module name="authn" target="11" />
-      <module name="basiclti" target="11" />
-      <module name="basiclti-admin-tool" target="11" />
-      <module name="basiclti-api" target="11" />
-      <module name="basiclti-common" target="11" />
-      <module name="basiclti-docs" target="11" />
-      <module name="basiclti-impl" target="11" />
-      <module name="basiclti-util" target="11" />
-      <module name="calendar" target="11" />
-      <module name="chat-base" target="11" />
-      <module name="citations-base" target="11" />
-      <module name="cloud-content" target="11" />
-      <module name="cloud-content-impl" target="11" />
-      <module name="cloud-storage" target="11" />
-      <module name="common" target="11" />
-      <module name="common-cartridge" target="11" />
-      <module name="commons" target="11" />
-      <module name="commons-api" target="11" />
-      <module name="commons-impl" target="11" />
-      <module name="commons-tool" target="11" />
-      <module name="config" target="11" />
-      <module name="configuration-bundles" target="11" />
-      <module name="content" target="11" />
-      <module name="content-review" target="11" />
-      <module name="content-review-api" target="11" />
-      <module name="content-review-compilatio-impl" target="11" />
-      <module name="content-review-dao-impl" target="11" />
-      <module name="content-review-impl" target="11" />
-      <module name="content-review-pack" target="11" />
-      <module name="content-review-service-impl" target="11" />
-      <module name="content-review-tool" target="11" />
-      <module name="content-review-turnitin-impl" target="11" />
-      <module name="content-review-turnitin-oc-impl" target="11" />
-      <module name="content-review-urkund-impl" target="11" />
-      <module name="course-management" target="11" />
-      <module name="coursemanagement-api" target="11" />
-      <module name="coursemanagement-hibernate-impl" target="11" />
-      <module name="coursemanagement-hibernate-model" target="11" />
-      <module name="coursemanagement-hibernate-pack" target="11" />
-      <module name="dav" target="11" />
-      <module name="dav-base" target="11" />
-      <module name="delegatedaccess" target="11" />
-      <module name="delegatedaccess-api" target="11" />
-      <module name="delegatedaccess-impl" target="11" />
-      <module name="delegatedaccess-tool" target="11" />
-      <module name="deploy" target="11" />
-      <module name="direct" target="11" />
-      <module name="edu-services" target="11" />
-      <module name="elasticsearch-api" target="11" />
-      <module name="elasticsearch-base" target="11" />
-      <module name="elasticsearch-impl" target="11" />
-      <module name="elasticsearch-util" target="11" />
-      <module name="elfinder-connector" target="11" />
-      <module name="emailtemplateservice" target="11" />
-      <module name="emailtemplateservice-tool" target="11" />
-      <module name="entitybroker" target="11" />
-      <module name="entitybroker-api" target="11" />
-      <module name="entitybroker-impl" target="11" />
-      <module name="entitybroker-mocks" target="11" />
-      <module name="entitybroker-pack" target="11" />
-      <module name="entitybroker-restimpl" target="11" />
-      <module name="entitybroker-utils" target="11" />
       <module name="exampleApp" target="1.6" />
       <module name="exampleApp-tool" target="1.6" />
-      <module name="external-calendaring-service" target="11" />
-      <module name="external-calendaring-service-api" target="11" />
-      <module name="external-calendaring-service-impl" target="11" />
-      <module name="feedback-tool" target="11" />
-      <module name="gradebookng" target="11" />
-      <module name="gradebookng-bundle" target="11" />
-      <module name="gradebookng-tool" target="11" />
-      <module name="help-base" target="11" />
-      <module name="hierarchy" target="11" />
-      <module name="import-impl" target="11" />
-      <module name="import-pack" target="11" />
-      <module name="imsblis" target="11" />
-      <module name="imsblti" target="11" />
-      <module name="imsoidc" target="11" />
-      <module name="jsf" target="11" />
-      <module name="jsf-app" target="11" />
-      <module name="jsf-resource" target="11" />
-      <module name="jsf-spreadsheet" target="11" />
-      <module name="jsf-tool" target="11" />
-      <module name="jsf-tool-sun" target="11" />
-      <module name="jsf-widgets" target="11" />
-      <module name="jsf-widgets-sun" target="11" />
-      <module name="jsf-widgets-sun-depend" target="11" />
-      <module name="jsf2" target="11" />
-      <module name="jsf2-app" target="11" />
-      <module name="jsf2-spreadsheet" target="11" />
-      <module name="jsf2-tool" target="11" />
-      <module name="jsf2-tool-sun" target="11" />
-      <module name="jsf2-widgets" target="11" />
-      <module name="jsf2-widgets-sun" target="11" />
-      <module name="jsf2-widgets-sun-depend" target="11" />
-      <module name="kernel" target="11" />
-      <module name="lessonbuilder" target="11" />
-      <module name="lessonbuilder-api" target="11" />
-      <module name="lessonbuilder-components" target="11" />
-      <module name="lessonbuilder-hbm" target="11" />
-      <module name="lessonbuilder-tool" target="11" />
-      <module name="library" target="11" />
-      <module name="localization-bundles" target="11" />
-      <module name="login" target="11" />
-      <module name="login-api" target="11" />
-      <module name="login-impl" target="11" />
-      <module name="login-render-engine-impl" target="11" />
-      <module name="mailarchive" target="11" />
-      <module name="mailsender" target="11" />
-      <module name="mailsender-api" target="11" />
-      <module name="mailsender-impl" target="11" />
-      <module name="mailsender-tool" target="11" />
-      <module name="master" target="11" />
-      <module name="message" target="11" />
-      <module name="message-search-adapters-impl" target="11" />
-      <module name="messageforums-api" target="11" />
-      <module name="messageforums-component-impl" target="11" />
-      <module name="messageforums-hbm" target="11" />
-      <module name="messageforums-tool" target="11" />
-      <module name="msgcntr" target="11" />
-      <module name="mycalendar" target="11" />
-      <module name="myconnections" target="11" />
-      <module name="myfaces-tool" target="11" />
-      <module name="myfaces-widgets" target="11" />
-      <module name="myfaces-widgets-depend" target="11" />
-      <module name="oauth-api" target="11" />
-      <module name="oauth-base" target="11" />
-      <module name="oauth-dao-hbm" target="11" />
-      <module name="oauth-impl" target="11" />
-      <module name="oauth-tool" target="11" />
-      <module name="pasystem-api" target="11" />
-      <module name="pasystem-base" target="11" />
-      <module name="pasystem-impl" target="11" />
-      <module name="pasystem-tool" target="11" />
-      <module name="plus" target="11" />
-      <module name="podcasts" target="11" />
-      <module name="podcasts-base" target="11" />
-      <module name="polls" target="11" />
-      <module name="polls-api" target="11" />
-      <module name="polls-impl" target="11" />
-      <module name="polls-tool" target="11" />
-      <module name="portal" target="11" />
-      <module name="portal-charon" target="11" />
-      <module name="portal-chat" target="11" />
-      <module name="portlet-util" target="11" />
-      <module name="postem-base" target="11" />
-      <module name="presence" target="11" />
-      <module name="profile2" target="11" />
-      <module name="profile2-api" target="11" />
-      <module name="profile2-impl" target="11" />
-      <module name="profile2-tool" target="11" />
-      <module name="profile2-util" target="11" />
-      <module name="providers" target="11" />
-      <module name="providers-base" target="11" />
-      <module name="reset-pass" target="11" />
-      <module name="rollcall" target="11" />
-      <module name="rollcall-api" target="11" />
-      <module name="rollcall-impl" target="11" />
-      <module name="rollcall-tool" target="11" />
-      <module name="rubrics-api" target="11" />
-      <module name="rubrics-base" target="11" />
-      <module name="rubrics-impl" target="11" />
-      <module name="rubrics-tool" target="11" />
-      <module name="rwiki-base" target="11" />
-      <module name="sakai-acadtermmanage" target="11" />
-      <module name="sakai-acadtermmanage-api" target="11" />
-      <module name="sakai-acadtermmanage-impl" target="11" />
-      <module name="sakai-acadtermmanage-tool" target="11" />
-      <module name="sakai-access-impl" target="11" />
-      <module name="sakai-allhands-provider" target="11" />
-      <module name="sakai-announcement-api" target="11" />
-      <module name="sakai-announcement-impl" target="11" />
-      <module name="sakai-announcement-tool" target="11" />
-      <module name="sakai-archive-import" target="11" />
-      <module name="sakai-assignment-api" target="11" />
-      <module name="sakai-assignment-impl" target="11" />
-      <module name="sakai-assignment-tool" target="11" />
-      <module name="sakai-calendar-api" target="11" />
-      <module name="sakai-calendar-bundles" target="11" />
-      <module name="sakai-calendar-connector" target="11" />
-      <module name="sakai-calendar-hbm" target="11" />
-      <module name="sakai-calendar-impl" target="11" />
-      <module name="sakai-calendar-summary-tool" target="11" />
-      <module name="sakai-calendar-tool" target="11" />
-      <module name="sakai-calendar-util" target="11" />
-      <module name="sakai-chat-api" target="11" />
-      <module name="sakai-chat-impl" target="11" />
-      <module name="sakai-chat-tool" target="11" />
-      <module name="sakai-citations-api" target="11" />
-      <module name="sakai-citations-impl" target="11" />
-      <module name="sakai-citations-servlet" target="11" />
-      <module name="sakai-citations-tool" target="11" />
-      <module name="sakai-citations-util" target="11" />
-      <module name="sakai-citations-web2bridge" target="11" />
-      <module name="sakai-citations-xserver" target="11" />
-      <module name="sakai-common-api" target="11" />
-      <module name="sakai-common-composite-component" target="11" />
-      <module name="sakai-common-composite-component-data" target="11" />
-      <module name="sakai-comp-help" target="11" />
-      <module name="sakai-comp-shared-help" target="11" />
-      <module name="sakai-component-manager" target="11" />
-      <module name="sakai-conversations-api" target="11" />
-      <module name="sakai-conversations-base" target="11" />
-      <module name="sakai-conversations-impl" target="11" />
-      <module name="sakai-conversations-tool" target="11" />
-      <module name="sakai-coursemanagement-authz-provider-impl" target="11" />
-      <module name="sakai-dashboard-base" target="11" />
-      <module name="sakai-dashboard-tool" target="11" />
-      <module name="sakai-dav-common" target="11" />
-      <module name="sakai-dav-server" target="11" />
-      <module name="sakai-editor" target="11" />
-      <module name="sakai-fck-connector" target="11" />
-      <module name="sakai-federating-provider" target="11" />
-      <module name="sakai-googledrive" target="11" />
-      <module name="sakai-googledrive-api" target="11" />
-      <module name="sakai-googledrive-impl" target="11" />
-      <module name="sakai-googledrive-tool" target="11" />
-      <module name="sakai-grading-api" target="11" />
-      <module name="sakai-grading-impl" target="11" />
-      <module name="sakai-help-api" target="11" />
-      <module name="sakai-help-content" target="11" />
-      <module name="sakai-help-tool" target="11" />
-      <module name="sakai-import-announcement" target="11" />
-      <module name="sakai-import-bb55" target="11" />
-      <module name="sakai-import-bb6" target="11" />
-      <module name="sakai-import-bb6-resource" target="11" />
-      <module name="sakai-import-content" target="11" />
-      <module name="sakai-import-util" target="11" />
-      <module name="sakai-imsent-provider" target="11" />
-      <module name="sakai-kerberos-provider" target="11" />
-      <module name="sakai-kernel-api" target="11" />
-      <module name="sakai-kernel-impl" target="11" />
-      <module name="sakai-kernel-storage-util" target="11" />
-      <module name="sakai-kernel-test" target="11" />
-      <module name="sakai-kernel-util" target="11" />
-      <module name="sakai-login-tool" target="11" />
-      <module name="sakai-mailarchive-api" target="11" />
-      <module name="sakai-mailarchive-impl" target="11" />
-      <module name="sakai-mailarchive-subetha" target="11" />
-      <module name="sakai-mailarchive-tool" target="11" />
-      <module name="sakai-mergedlist-util" target="11" />
-      <module name="sakai-message-api" target="11" />
-      <module name="sakai-message-bundle-manager-tool" target="11" />
-      <module name="sakai-message-tool" target="11" />
-      <module name="sakai-message-util" target="11" />
-      <module name="sakai-onedrive" target="11" />
-      <module name="sakai-onedrive-api" target="11" />
-      <module name="sakai-onedrive-impl" target="11" />
-      <module name="sakai-onedrive-tool" target="11" />
-      <module name="sakai-openldap-provider" target="11" />
-      <module name="sakai-plus-api" target="11" />
-      <module name="sakai-plus-base" target="11" />
-      <module name="sakai-plus-impl" target="11" />
-      <module name="sakai-plus-tool" target="11" />
-      <module name="sakai-podcasts" target="11" />
-      <module name="sakai-podcasts-api" target="11" />
-      <module name="sakai-podcasts-impl" target="11" />
-      <module name="sakai-portal-api" target="11" />
-      <module name="sakai-portal-impl" target="11" />
-      <module name="sakai-portal-render-api" target="11" />
-      <module name="sakai-portal-render-engine-impl" target="11" />
-      <module name="sakai-portal-render-impl" target="11" />
-      <module name="sakai-portal-service-impl" target="11" />
-      <module name="sakai-portal-util" target="11" />
-      <module name="sakai-postem-api" target="11" />
-      <module name="sakai-postem-hbm" target="11" />
-      <module name="sakai-postem-impl" target="11" />
-      <module name="sakai-postem-tool" target="11" />
-      <module name="sakai-presence-api" target="11" />
-      <module name="sakai-presence-impl" target="11" />
-      <module name="sakai-presence-tool" target="11" />
-      <module name="sakai-presence-util" target="11" />
-      <module name="sakai-privacy-api" target="11" />
-      <module name="sakai-privacy-hbm" target="11" />
-      <module name="sakai-privacy-impl" target="11" />
-      <module name="sakai-provider-pack" target="11" />
-      <module name="sakai-radeox" target="11" />
-      <module name="sakai-reset-pass" target="11" />
-      <module name="sakai-roster2-base" target="11" />
-      <module name="sakai-roster2-bundle" target="11" />
-      <module name="sakai-roster2-tool" target="11" />
-      <module name="sakai-rsf" target="11" />
-      <module name="sakai-rsf-core" target="11" />
-      <module name="sakai-rsf-web" target="11" />
-      <module name="sakai-rsf-web-evolvers" target="11" />
-      <module name="sakai-rsf-web-templates" target="11" />
-      <module name="sakai-rsf-web-test" target="11" />
-      <module name="sakai-rwiki-api" target="11" />
-      <module name="sakai-rwiki-diff" target="11" />
-      <module name="sakai-rwiki-impl" target="11" />
-      <module name="sakai-rwiki-model" target="11" />
-      <module name="sakai-rwiki-tool" target="11" />
-      <module name="sakai-rwiki-util" target="11" />
-      <module name="sakai-sample-provider" target="11" />
-      <module name="sakai-search-tool" target="11" />
-      <module name="sakai-sections-tool" target="11" />
-      <module name="sakai-signup-tool" target="11" />
-      <module name="sakai-syllabus-api" target="11" />
-      <module name="sakai-syllabus-impl" target="11" />
-      <module name="sakai-syllabus-tool" target="11" />
-      <module name="sakai-taggable-api" target="11" />
-      <module name="sakai-taggable-hbm" target="11" />
-      <module name="sakai-taggable-impl" target="11" />
-      <module name="sakai-unboundid-provider" target="11" />
-      <module name="sakai-userdetail-provider" target="11" />
-      <module name="sakai-usermembership-api" target="11" />
-      <module name="sakai-usermembership-impl" target="11" />
-      <module name="sakai-usermembership-tool" target="11" />
-      <module name="sakai-velocity-tool" target="11" />
-      <module name="sakai-velocity-tool-api" target="11" />
-      <module name="sakai-velocity-util" target="11" />
-      <module name="sakai-web-portlet-basiclti" target="11" />
-      <module name="sakai-ws" target="11" />
-      <module name="samigo" target="11" />
-      <module name="samigo-api" target="11" />
-      <module name="samigo-app" target="11" />
-      <module name="samigo-cp" target="11" />
-      <module name="samigo-hibernate" target="11" />
-      <module name="samigo-impl" target="11" />
-      <module name="samigo-import" target="11" />
-      <module name="samigo-pack" target="11" />
-      <module name="samigo-qti" target="11" />
-      <module name="samigo-services" target="11" />
-      <module name="samlite-impl" target="11" />
-      <module name="scheduler" target="11" />
-      <module name="scheduler-api" target="11" />
-      <module name="scheduler-component" target="11" />
-      <module name="scheduler-component-shared" target="11" />
-      <module name="scheduler-events-model" target="11" />
-      <module name="scheduler-test-component" target="11" />
-      <module name="scheduler-test-component-shared" target="11" />
-      <module name="scheduler-tool" target="11" />
-      <module name="scheduler-utils" target="11" />
-      <module name="scoring-service" target="11" />
-      <module name="scoring-service-api" target="11" />
-      <module name="scoring-service-impl" target="11" />
-      <module name="search" target="11" />
-      <module name="search-api" target="11" />
-      <module name="search-impl" target="11" />
-      <module name="search-model" target="11" />
-      <module name="search-util" target="11" />
-      <module name="sections" target="11" />
-      <module name="sections-api" target="11" />
-      <module name="sections-base" target="11" />
-      <module name="sections-impl" target="11" />
-      <module name="sections-model" target="11" />
-      <module name="serviceworker" target="11" />
-      <module name="shared-i18n-bundles" target="11" />
-      <module name="shortenedurl" target="11" />
-      <module name="shortenedurl-api" target="11" />
-      <module name="shortenedurl-impl" target="11" />
-      <module name="signup" target="11" />
-      <module name="signup-api" target="11" />
-      <module name="signup-impl" target="11" />
-      <module name="simple-rss-portlet" target="11" />
-      <module name="site" target="11" />
-      <module name="sitemanage" target="11" />
-      <module name="sitestats" target="11" />
-      <module name="sitestats-api" target="11" />
-      <module name="sitestats-bundle" target="11" />
-      <module name="sitestats-impl" target="11" />
-      <module name="sitestats-impl-hib" target="11" />
-      <module name="sitestats-tool" target="11" />
-      <module name="syllabus-base" target="11" />
-      <module name="taggable" target="11" />
-      <module name="tags-api" target="11" />
-      <module name="tags-base" target="11" />
-      <module name="tags-impl" target="11" />
-      <module name="tags-tool" target="11" />
-      <module name="textarea-base" target="11" />
-      <module name="tool" target="11" />
-      <module name="user" target="11" />
-      <module name="userauditservice" target="11" />
-      <module name="userauditservice-api" target="11" />
-      <module name="userauditservice-impl" target="11" />
-      <module name="userauditservice-tool" target="11" />
-      <module name="userauditservice-util" target="11" />
-      <module name="usermembership-base" target="11" />
-      <module name="velocity" target="11" />
-      <module name="web" target="11" />
-      <module name="web-base" target="11" />
-      <module name="webcomponents" target="11" />
-      <module name="webcomponents-bundle" target="11" />
-      <module name="webcomponents-parent" target="11" />
-      <module name="webjars" target="11" />
-      <module name="webservices" target="11" />
-      <module name="wicket-tool-6" target="11" />
-      <module name="wicket-tool-8" target="11" />
-      <module name="wicket-tool-base" target="11" />
-      <module name="wiki" target="11" />
-      <module name="x" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -449,6 +361,10 @@
       <module name="basiclti-docs" options="--add-exports=java.xml/com.sun.org.apache.xml.internal.serializer=ALL-UNNAMED --add-exports=java.xml/com.sun.org.apache.xml.internal.utils=ALL-UNNAMED" />
       <module name="basiclti-impl" options="--add-exports=java.xml/com.sun.org.apache.xml.internal.serializer=ALL-UNNAMED --add-exports=java.xml/com.sun.org.apache.xml.internal.utils=ALL-UNNAMED" />
       <module name="basiclti-util" options="--add-exports=java.xml/com.sun.org.apache.xml.internal.serializer=ALL-UNNAMED --add-exports=java.xml/com.sun.org.apache.xml.internal.utils=ALL-UNNAMED" />
+      <module name="bbb" options="--add-exports=java.xml/com.sun.org.apache.xml.internal.serializer=ALL-UNNAMED --add-exports=java.xml/com.sun.org.apache.xml.internal.utils=ALL-UNNAMED" />
+      <module name="bbb-api" options="--add-exports=java.xml/com.sun.org.apache.xml.internal.serializer=ALL-UNNAMED --add-exports=java.xml/com.sun.org.apache.xml.internal.utils=ALL-UNNAMED" />
+      <module name="bbb-impl" options="--add-exports=java.xml/com.sun.org.apache.xml.internal.serializer=ALL-UNNAMED --add-exports=java.xml/com.sun.org.apache.xml.internal.utils=ALL-UNNAMED" />
+      <module name="bbb-tool" options="--add-exports=java.xml/com.sun.org.apache.xml.internal.serializer=ALL-UNNAMED --add-exports=java.xml/com.sun.org.apache.xml.internal.utils=ALL-UNNAMED" />
       <module name="calendar" options="--add-exports=java.xml/com.sun.org.apache.xml.internal.serializer=ALL-UNNAMED --add-exports=java.xml/com.sun.org.apache.xml.internal.utils=ALL-UNNAMED" />
       <module name="chat-base" options="--add-exports=java.xml/com.sun.org.apache.xml.internal.serializer=ALL-UNNAMED --add-exports=java.xml/com.sun.org.apache.xml.internal.utils=ALL-UNNAMED" />
       <module name="citations-base" options="--add-exports=java.xml/com.sun.org.apache.xml.internal.serializer=ALL-UNNAMED --add-exports=java.xml/com.sun.org.apache.xml.internal.utils=ALL-UNNAMED" />
@@ -597,6 +513,7 @@
       <module name="rollcall" options="--add-exports=java.xml/com.sun.org.apache.xml.internal.serializer=ALL-UNNAMED --add-exports=java.xml/com.sun.org.apache.xml.internal.utils=ALL-UNNAMED" />
       <module name="rollcall-api" options="--add-exports=java.xml/com.sun.org.apache.xml.internal.serializer=ALL-UNNAMED --add-exports=java.xml/com.sun.org.apache.xml.internal.utils=ALL-UNNAMED" />
       <module name="rollcall-impl" options="--add-exports=java.xml/com.sun.org.apache.xml.internal.serializer=ALL-UNNAMED --add-exports=java.xml/com.sun.org.apache.xml.internal.utils=ALL-UNNAMED" />
+      <module name="rollcall-pack" options="--add-exports=java.xml/com.sun.org.apache.xml.internal.serializer=ALL-UNNAMED --add-exports=java.xml/com.sun.org.apache.xml.internal.utils=ALL-UNNAMED" />
       <module name="rollcall-tool" options="--add-exports=java.xml/com.sun.org.apache.xml.internal.serializer=ALL-UNNAMED --add-exports=java.xml/com.sun.org.apache.xml.internal.utils=ALL-UNNAMED" />
       <module name="rubrics-api" options="--add-exports=java.xml/com.sun.org.apache.xml.internal.serializer=ALL-UNNAMED --add-exports=java.xml/com.sun.org.apache.xml.internal.utils=ALL-UNNAMED" />
       <module name="rubrics-base" options="--add-exports=java.xml/com.sun.org.apache.xml.internal.serializer=ALL-UNNAMED --add-exports=java.xml/com.sun.org.apache.xml.internal.utils=ALL-UNNAMED" />
