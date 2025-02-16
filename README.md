@@ -64,3 +64,8 @@ Tomcat (sakai) will need atleast 5-10 minutes to start up.
 Connect at http://localhost:8080/portal
 
 Enjoy 😄
+
+## Mock data
+Since **Rollcall** is still under development and not all features are fully implemented, the **current demonstration of functionality requires mock data** to work properly.  
+
+For instructions on how to add the necessary mock data, please refer to the [**Rollcall README file**](https://github.com/JMSteinlechner/rollcall).  
