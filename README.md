@@ -1,10 +1,11 @@
-# Why this repo
 
-Repo should function as a base to clone when building sakai together with bbb-tool and our custom rollcall-tool to track attendance in bbb.
+This repository serves as a base for cloning when setting up Sakai, including the **bbb-tool** and our custom **rollcall-tool** for tracking attendance in BigBlueButton (BBB).
 
-Result of following build instruction should be a running sakai with bbb-tool and rollcall in a docker container. Uses test configuration for bbb-tool (added in sakai.properties of docker-sakai-builder tomcat) so no need to run big blue button in docker to test it.
+Following the build instructions will result in a fully functional Sakai instance running inside a Docker container, preconfigured with **bbb-tool** and **rollcall-tool**. It uses a test configuration for **bbb-tool** (specified in the `sakai.properties` of `docker-sakai-builder` Tomcat), eliminating the need to run BigBlueButton in Docker for testing.
 
-Repo contains docker-sakai-builder with sakai fork included as submodule and bbb-tool fork and our custom rollcall tool as submodules in the sakai fork.
+The repository includes **docker-sakai-builder**, with a Sakai fork as a submodule. Additionally, the **bbb-tool fork** and our custom **rollcall-tool** are included as submodules within the Sakai fork.
+
+This setup ensures a streamlined build process with all necessary components integrated.
 
 ```
 
@@ -19,11 +20,13 @@ Repo contains docker-sakai-builder with sakai fork included as submodule and bbb
 └── README.md
 ```
 
-It uses forks, because we need to change the JDK docker-sakai-builder uses from 17 to 11 for it to work with sakai 23.x branch.
+The repository uses forks because we need to downgrade the JDK in **docker-sakai-builder** from version 17 to 11 to ensure compatibility with the Sakai **23.x** branch.
 
-Sakai fork because we directly include bbb-tool and rollcall in the sakai build and need to make minor changes to the sakai pom.xml for it to work... i know is probably also possible to build each tool individually and deploy... but this is the current working state for now.
+A **Sakai fork** is used to directly include **bbb-tool** and **rollcall-tool** in the Sakai build. Additionally, minor modifications to `pom.xml` are necessary for proper integration. While it's likely possible to build and deploy each tool individually, this setup represents the current working state.
 
-BBB-tool fork so we can change to the appropiate 23-SNAPSHOT.
+To display an icon for the **rollcall-tool** in the navigation bar, we need to define it within the Sakai source styles, as is done for other community-contributed tools. Another approach would be to create a custom theme, which would allow us to define the icon separately. However, since we are not developing a full custom theme, modifying the Sakai source is required.
+
+A **bbb-tool fork** is included to ensure the correct **23-SNAPSHOT** version is used.
 
 # Build
 
